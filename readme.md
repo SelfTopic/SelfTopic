@@ -42,7 +42,7 @@ me = BackendWizard()
 | :------------------ | :--------------------------------------------------- | :----------------------------- |
 | [Selfrot Framework](https://github.com/SelfTopic/selfrotgram) | Telegram Bot Framework with DI Architecture | Python • AsyncIO • Pydantic 🐍 |
 | [CodeTime Tracker](https://github.com/SelfTopic/vscode-timer-extension) | VSCode Activity Tracker<br>with Analytics Dashboard | NextJS • WebSockets • SQLite 💻 |
-| [Jokes API Service](https://github.com/SelfTopic/joke_api_express) | REST API for Programmer Humor | Express • MongoDB • 🚦 Rate Limiting |
+| [Jokes API Service](https://github.com/SelfTopic/joke_api_express) | REST API for Programmer Humor | Express • PostgreSQL • 🚦 Rate Limiting |
 | Docker Orchestrator | Microservices Deployment CLI | Python • Docker API • YAML 🐳 |
 
 ### 📮 Contact the Architect
