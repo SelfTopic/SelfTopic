@@ -1,52 +1,44 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFD700&center=true&vCenter=true&width=435&lines=Self Topic;Backecd Developer;Кто прочитал тот лох" alt="Typing SVG" />
-  
-  [![Visitors](https://komarev.com/ghpvc/?username=SelfTopic&label=PROFILE+VIEWS&color=0e75b6&style=flat)](https://github.com/SelfTopic)
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-ghoul.svg">
+  <img alt="CheStor — Self: бэкенд на Python, Telegram Bot API, «Токийский гуль»" src="assets/banner-human.svg" width="100%">
+</picture>
 
----
+Пишу бэкенд на Python и неровно дышу к Telegram Bot API: написал к нему свой фреймворк, а по
+«Токийскому гулю» — RPG-бота. Всё это собрано на **[chestor.site](https://chestor.site)** — сайте
+в виде Telegram-клиента, где чат синхронизирован с настоящей Telegram-группой.
 
-### ⚡ Digital Alchemy
-```python
-class BackendWizard:
-    def __init__(self):
-        self.languages = ["Python", "TypeScript"]
-        self.architecture = ["Microservices", "Event-Driven"]
-        self.skills = {
-            "Backend": ["Next.js", "Express", "FastAPI"],
-            "Databases": ["PostgreSQL", "Redis", "SQLite"],
-            "Infra": ["Docker", "WebSockets", "REST/GraphQL"],
-            "Special": ["Telegram Bots", "ORM Design", "CLI Tools"]
-        }
-    
-    def create_magic(self):
-        while True:
-            yield "⚡ Transforming coffee into code"
+*Backend developer (Python). Author of [selfrotgram](https://github.com/SelfTopic/selfrotgram), a
+typed Telegram Bot API framework, and [chestor_bot](https://github.com/SelfTopic/chestor_bot), a Tokyo
+Ghoul RPG game in Telegram.*
 
-me = BackendWizard()
-```
-### 🛠️ Tech Arsenal
-<p align="center"> <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"> <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"> <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="NextJS"> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="Postgres"> </p>
+> [!TIP]
+> **Хочешь поиграть в «Токийского гуля» в Telegram?** Напиши [@chestor_chat_bot](https://t.me/chestor_chat_bot)
+> `/start` — или добавь его в чат. Гуль с голодом и кагуне, дуэли, бои с мобами, своя экономика.
+> Все команды — в канале [@CheStorCommands](https://t.me/CheStorCommands).
 
+## Проекты
 
-### 🔥 GitHub Stats
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=SelfTopic&theme=radical&border_radius=12" alt="stats">
+Ранги — шкала угрозы CCG, как на [сайте](https://chestor.site/c/projects).
 
-<img src="https://github-readme-stats.vercel.app/api?username=SelfTopic&show_icons=true&theme=radical" alt="Stats" width="48%"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SelfTopic&layout=compact&theme=radical" alt="Top Langs" width="43%">
-</div>
+| Ранг | Проект | Что это |
+| :-: | :-- | :-- |
+| **SSS** | [chestor_bot](https://github.com/SelfTopic/chestor_bot) | RPG-бот по «Токийскому гулю»: голод, смерть и возрождение, кагуне четырёх типов, дуэли и бои с мобами, экономика. v1.0.0, 659 тестов. [Досье →](https://chestor.site/bot) |
+| **SS** | [selfrotgram](https://github.com/SelfTopic/selfrotgram) | Асинхронный фреймворк для Telegram Bot API, где типы говорят правду: фильтр гарантирует поле — тип это знает. Кодогенерация из спецификации Bot API 10.3, CLI. [PyPI](https://pypi.org/project/selfrotgram/) · [подробнее →](https://chestor.site/selfrotgram) |
+| **S** | [questions_ghoul_api](https://github.com/SelfTopic/questions_ghoul_api) | База вопросов викторины по «Токийскому гулю»: Express 5, PostgreSQL, Redis, одноразовые refresh-токены. Работает на `chestor.site/api`, клиент на Python — [ghoul-quiz-lib](https://github.com/SelfTopic/questions_ghoul_api_lib). |
+| **S** | [chestor_site](https://github.com/SelfTopic/chestor_site) | Этот самый сайт: Next.js + сервис чата на selfrotgram, капча на Ghoul Quiz, модерация из группы. |
+| **A** | [userbot-api](https://github.com/SelfTopic/userbot-api) | HTTP API над тестовыми Telegram-аккаунтами, чтобы Claude Code проверял ботов в настоящем Telegram. |
+| **A** | [voice-player](https://github.com/SelfTopic/voice-player) | «Джарвис» для KDE Plasma: быстрые команды офлайн через Vosk, свободные запросы через faster-whisper. |
+| **B** | [tiktok-userbot](https://github.com/SelfTopic/tiktok-userbot) | Кинул ссылку на TikTok в чат — получил видео или слайдшоу. |
 
-### 🚀 Featured Projects
+## Стек
 
-| Project             | Description                                          | Tech Stack                     |
-| :------------------ | :--------------------------------------------------- | :----------------------------- |
-| [Selfrot Framework](https://github.com/SelfTopic/selfrotgram) | Telegram Bot Framework with DI Architecture | Python • AsyncIO • Pydantic 🐍 |
-| [CodeTime Tracker](https://github.com/SelfTopic/vscode-timer-extension) | VSCode Activity Tracker<br>with Analytics Dashboard | NextJS • WebSockets • SQLite 💻 |
-| [Jokes API Service](https://github.com/SelfTopic/joke_api_express) | REST API for Programmer Humor | Express • PostgreSQL • 🚦 Rate Limiting |
-| Docker Orchestrator | Microservices Deployment CLI | Python • Docker API • YAML 🐳 |
+**Python** — asyncio, aiohttp, pydantic, SQLAlchemy 2, Alembic, pytest, pyright, Poetry<br>
+**Telegram** — selfrotgram, aiogram 3, grammY, Pyrogram / Kurigram<br>
+**TypeScript** — Node.js, Express 5, Next.js, Drizzle, Zod, Vitest<br>
+**Данные и инфраструктура** — PostgreSQL, Redis, Docker Compose, nginx, GitHub Actions
 
-### 📮 Contact the Architect
-<p align="center"> <a href="https://t.me/Self_topic" target="_blank"> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"> </a> <a href="mailto:dmitry@syntaxfortress.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> </a> 
+## Связь
 
+[Telegram @chestor](https://t.me/chestor) · [chestor.official@gmail.com](mailto:chestor.official@gmail.com) · [chestor.site](https://chestor.site)
 
-<h1>"In code I trust, for it never lies or betrays - it simply executes."</h1>
+> *In code I trust, for it never lies or betrays — it simply executes.*
